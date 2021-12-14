@@ -10,6 +10,13 @@ module InitProject
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
+    # config/initializers/locale.rb
+    config.i18n.available_locales = [:en, :vi]
+    config.i18n.default_locale = :vi
+    # Where the I18n library should search for translation files
+
+    # Permitted locales available for the application
 
     # Configuration for the application, engines, and railties goes here.
     #

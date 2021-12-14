@@ -12,7 +12,8 @@
 /.idea
 /.idea/*
 /node_modules/
-
+.vscode/
+/test/
 .byebug_history
 
 .dat*
@@ -38,3 +39,14 @@ config/credentials.yml.enc
 .framgia-ci-result.temp.yml
 config/database.yml
 config/master.key
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml

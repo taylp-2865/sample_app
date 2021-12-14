@@ -1,0 +1,38 @@
+vi:
+  hello: "Chào thế giới"
+  title: "Hướng dẫn Ruby on Rails Sample App"
+  author: "Michael Hartl!"
+  tutorial: "Hướng dẫn Ruby on Rails"
+  by: "bởi"
+  help_pages: "Trang hỗ trợ Rails Tutorial"
+  book: "Sách hướng dẫn Ruby on Rails"
+  header:
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    contact: "Liên lạc"
+    signup: "Đăng ký"
+    login: "Đăng nhập"
+    about: "Về chúng tôi"
+  footer:
+    about: "Về chúng tôi"
+    contact: "Liên lạc"
+    news: "Tin tức"
+  static_pages:
+    home:
+      content: "Đây là trang chủ cho %{link} ứng dụng mẫu"
+      wellcome: "Chào bạn đến với Sample App"
+      signup_now: "Tham gia ngay!"
+    contact:
+      content: "Xin chào"
+    help:
+      content: "Tìm kiếm sự trợ giúp về %{text} tại %{link_help_page}. Để nhận trợ giúp về sample app, xem qua %{link_rails_book}."
+    about:
+      content: "Phần %{link_rails_tutorial}, một phần của nhóm hướng dẫn %{link_learn_enough}, là một %{link_rails_book} và loạt %{link_screen_cast} để dạy về phát triển web với %{link_rails}. Đây là sample app cho bài hướng dẫn."
+      screen_cast: "screencast"
+      book: "sách"
+      rails: "Ruby on Rails"
+      learn_enough: "Learn Enough"
+  users:
+    new:
+      signup: "Đăng ký"
+      content: "Đây là trang đăng ký cho người dùng mới"

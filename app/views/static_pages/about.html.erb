@@ -1,0 +1,5 @@
+<% provide: title, t("header.about") %>
+<h1><%= t("header.about") %></h1>
+<p>
+  <%= sanitize t(".content", link_rails_tutorial: link_to(t("tutorial"), Settings.rails_tutorial), link_help_page: link_to(t("rails_help"), Settings.rails_tutorial), link_learn_enough: link_to(t(".learn_enough"), Settings.learn_enough), link_rails_book: link_to(t(".book"), Settings.rails_book), link_screen_cast: link_to(t(".screen_cast"), Settings.screen_cast), link_rails: link_to(t(".rails")))%>
+</p>
