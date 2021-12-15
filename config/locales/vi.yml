@@ -20,7 +20,7 @@ vi:
   static_pages:
     home:
       content: "Đây là trang chủ cho %{link} ứng dụng mẫu"
-      wellcome: "Chào bạn đến với Sample App"
+      welcome: "Chào bạn đến với Sample App"
       signup_now: "Tham gia ngay!"
     contact:
       content: "Xin chào"
@@ -36,3 +36,13 @@ vi:
     new:
       signup: "Đăng ký"
       content: "Đây là trang đăng ký cho người dùng mới"
+      name: "Họ và tên"
+      email: "Địa chỉ email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Đăng ký"
+  error:
+    error_valid: "Hiện đang có %{error}"
+    error: "lỗi"
+    user:
+      not_found: "Không tìm thấy người dùng"
