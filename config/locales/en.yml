@@ -1,33 +1,37 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  hello: "Hello wo!@!@rld"
+  title: "Ruby on Rails Tutorial Sample App"
+  author: "Michael Hartl"
+  tutorial: "The Ruby on Rails Tutorial"
+  by: "by"
+  help_page: "Rails Tutorial help page"
+  book: "Ruby on Rails Tutorial book"
+  header:
+    home: "Home"
+    help: "Help"
+    contact: "Contact"
+    signup: "Sign Up"
+    login: "Log in"
+  footer:
+    about: "About"
+    contact: "Contact"
+    news: "News"
+  static_pages:
+    home:
+      content:  "This is the home page for the %{link} sample application."
+      wellcome: "Wellcome to the Sample App"
+      signup_now: "Sign up now!"
+    contact:
+      content: "Hello"
+    help:
+      content: "Get help on the %{text} at the %{link_help_page}. To get help on this sample app, see the %{link_rails_book}."
+    about:
+      content: "The %{link_rails_tutorial}, part of the %{link_learn_enough} family of tutorials, is a %{link_rails_book} and %{link_screen_cast} to teach web development with %{link_rails}. This is the sample app for the tutorial."
+      screen_cast: "screencast series"
+      book: "book"
+      rails: "Ruby on Rails"
+      learn_enough: "Learn Enough"
+  users:
+      new:
+        signup: "Sign up"
+        content: "This will be a signup page for new users."
