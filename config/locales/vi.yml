@@ -6,17 +6,25 @@ vi:
   by: "bởi"
   help_pages: "Trang hỗ trợ Rails Tutorial"
   book: "Sách hướng dẫn Ruby on Rails"
-  header:
-    home: "Trang chủ"
-    help: "Trợ giúp"
-    contact: "Liên lạc"
-    signup: "Đăng ký"
-    login: "Đăng nhập"
-    about: "Về chúng tôi"
-  footer:
-    about: "Về chúng tôi"
-    contact: "Liên lạc"
-    news: "Tin tức"
+  login: "Đăng nhập"
+  invalid_user: "email hoặc mật khẩu không đúng"
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      contact: "Liên lạc"
+      signup: "Đăng ký"
+      login: "Đăng nhập"
+      about: "Về chúng tôi"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+    footer:
+      about: "Về chúng tôi"
+      contact: "Liên lạc"
+      news: "Tin tức"
   static_pages:
     home:
       content: "Đây là trang chủ cho %{link} ứng dụng mẫu"
@@ -46,3 +54,9 @@ vi:
     error: "lỗi"
     user:
       not_found: "Không tìm thấy người dùng"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      password: "Mật khẩu"
+      new_user: "Người dùng mới?"
+      signup_now: "Đăng kí ngay"
