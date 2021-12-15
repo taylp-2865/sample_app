@@ -1,6 +1,7 @@
 class User < ApplicationRecord
+  PROPERTIES = %i(name email password password_confirmation).freeze
   before_save :downcase_email
-  
+
   validates :name, presence: true,
     length: {maximum: Settings.name_maximun_length}
   validates :email, presence: true,
