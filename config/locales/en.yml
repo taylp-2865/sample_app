@@ -6,12 +6,19 @@ en:
   by: "by"
   help_page: "Rails Tutorial help page"
   book: "Ruby on Rails Tutorial book"
+  login: "Login"
+  invalid_user: "Invalid email/password"
   header:
     home: "Home"
     help: "Help"
     contact: "Contact"
     signup: "Sign Up"
     login: "Log in"
+    user: "Users"
+    account: "Account"
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Log out"
   footer:
     about: "About"
     contact: "Contact"
@@ -45,3 +52,9 @@ en:
     error: "error"
     user:
       not_found: "Not found user"
+  sessions:
+      new:
+        login: "Login"
+        password: "password"
+        new_user: "New User?"
+        sigup_now: "Sigup Now"
