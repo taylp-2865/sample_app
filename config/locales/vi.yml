@@ -31,7 +31,7 @@ vi:
       welcome: "Chào bạn đến với Sample App"
       signup_now: "Tham gia ngay!"
     contact:
-      content: "Xin chào"
+      content: "Xin chào Lê Phương Tây"
     help:
       content: "Tìm kiếm sự trợ giúp về %{text} tại %{link_help_page}. Để nhận trợ giúp về sample app, xem qua %{link_rails_book}."
     about:
@@ -60,3 +60,4 @@ vi:
       password: "Mật khẩu"
       new_user: "Người dùng mới?"
       signup_now: "Đăng kí ngay"
+      remember_me: "Giữ kết nối đăng nhập với máy tính này"
