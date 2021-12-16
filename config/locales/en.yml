@@ -29,7 +29,7 @@ en:
       welcome: "Wellcome to the Sample App"
       signup_now: "Sign up now!"
     contact:
-      content: "Hello"
+      content: "Hello Le Phuong Tay"
     help:
       content: "Get help on the %{text} at the %{link_help_page}. To get help on this sample app, see the %{link_rails_book}."
     about:
@@ -58,3 +58,4 @@ en:
         password: "password"
         new_user: "New User?"
         sigup_now: "Sigup Now"
+        remember_me: "Remember me on this computer"
