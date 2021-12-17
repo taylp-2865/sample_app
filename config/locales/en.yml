@@ -8,21 +8,22 @@ en:
   book: "Ruby on Rails Tutorial book"
   login: "Login"
   invalid_user: "Invalid email/password"
-  header:
-    home: "Home"
-    help: "Help"
-    contact: "Contact"
-    signup: "Sign Up"
-    login: "Log in"
-    user: "Users"
-    account: "Account"
-    profile: "Profile"
-    settings: "Settings"
-    logout: "Log out"
-  footer:
-    about: "About"
-    contact: "Contact"
-    news: "News"
+  layouts:
+    header:
+      home: "Home"
+      help: "Help"
+      contact: "Contact"
+      signup: "Sign Up"
+      login: "Log in"
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
   static_pages:
     home:
       content:  "This is the home page for the %{link} sample application."
@@ -39,6 +40,8 @@ en:
       rails: "Ruby on Rails"
       learn_enough: "Learn Enough"
   users:
+      index:
+        title: "All users"
       new:
         signup: "Sign up"
         content: "This will be a signup page for new users."
@@ -47,6 +50,27 @@ en:
         password: "Password"
         confirmation: "Confirmation"
         submit: "Create my account"
+        please_login: "Please log in."
+      edit:
+        title: "Update your profile"
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        confirmation: "Confirmation"
+        submit: "Save change"
+        change: "Change"
+        profile_updated: "Profile updated"
+      form:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        confirmation: "Confirmation"
+      destroy:
+        success: "User deleted"
+        fail: "Delete fail!"
+      user:
+        rusure: "You sure?"
+        delete: "Delete"
   error:
     error_valid: "The form contains %{error}"
     error: "error"
@@ -59,3 +83,6 @@ en:
         new_user: "New User?"
         sigup_now: "Sigup Now"
         remember_me: "Remember me on this computer"
+  will_paginate:
+    next_label: "Next &#8594;"
+    previous_label: "&#8592; Previous"

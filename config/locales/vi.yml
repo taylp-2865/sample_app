@@ -41,6 +41,8 @@ vi:
       rails: "Ruby on Rails"
       learn_enough: "Learn Enough"
   users:
+    index:
+      title: "Danh sách người dùng"
     new:
       signup: "Đăng ký"
       content: "Đây là trang đăng ký cho người dùng mới"
@@ -49,6 +51,27 @@ vi:
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
       submit: "Đăng ký"
+      please_login: "Vui lòng đăng nhập!"
+    edit:
+      title: "Chỉnh sửa thông tin"
+      name: "Họ và tên"
+      email: "Địa chỉ email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Lưu thay đổi"
+      change: "Thay đổi"
+      profile_updated: "Hồ sơ đã được cập nhật"
+    form:
+      name: "Họ và tên"
+      email: "Địa chỉ email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+    destroy:
+      success: "Xoá thành công"
+      fail: "Xoá thất bại"
+    user:
+      rusure: "Xác nhận xoá?"
+      delete: "Xoá"
   error:
     error_valid: "Hiện đang có %{error}"
     error: "lỗi"
@@ -61,3 +84,6 @@ vi:
       new_user: "Người dùng mới?"
       signup_now: "Đăng kí ngay"
       remember_me: "Giữ kết nối đăng nhập với máy tính này"
+  will_paginate:
+    next_label: "Trang kế &#8594"
+    previous_label: "&#8592; Trang trước"
