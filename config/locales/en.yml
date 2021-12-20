@@ -21,6 +21,8 @@ en:
   reset_success: "Password has been reset."
   reset_expired: "Password reset has expired."
   reset_failed: "Reset password failed"
+  valid_image_format: "must be a valid image format"
+  valid_image_size: "should be less than 5MB"
   layouts:
     header:
       home: "Home"
@@ -43,6 +45,7 @@ en:
       content:  "This is the home page for the %{link} sample application."
       welcome: "Wellcome to the Sample App"
       signup_now: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     contact:
       content: "Hello Le Phuong Tay"
     help:
@@ -54,37 +57,39 @@ en:
       rails: "Ruby on Rails"
       learn_enough: "Learn Enough"
   users:
-      index:
-        title: "All users"
-      new:
-        signup: "Sign up"
-        content: "This will be a signup page for new users."
-        name: "Name"
-        email: "Email"
-        password: "Password"
-        confirmation: "Confirmation"
-        submit: "Create my account"
-        please_login: "Please log in."
-      edit:
-        title: "Update your profile"
-        name: "Name"
-        email: "Email"
-        password: "Password"
-        confirmation: "Confirmation"
-        submit: "Save change"
-        change: "Change"
-        profile_updated: "Profile updated"
-      form:
-        name: "Name"
-        email: "Email"
-        password: "Password"
-        confirmation: "Confirmation"
-      destroy:
-        success: "User deleted"
-        fail: "Delete fail!"
-      user:
-        rusure: "You sure?"
-        delete: "Delete"
+    show:
+      microposts: "Microposts"
+    index:
+      title: "All users"
+    new:
+      signup: "Sign up"
+      content: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Create my account"
+      please_login: "Please log in."
+    edit:
+      title: "Update your profile"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Save change"
+      change: "Change"
+      profile_updated: "Profile updated"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+    destroy:
+      success: "User deleted"
+      fail: "Delete fail!"
+    user:
+      rusure: "You sure?"
+      delete: "Delete"
   error:
     error_valid: "The form contains %{error}"
     error: "error"
@@ -119,7 +124,22 @@ en:
     new:
       title: "Forgot password"
       submit: "Submit"
-
+  microposts:
+    create:
+      success: "Micropost created!"
+    destroy:
+      deleted: "Micropost deleted"
+    micropost:
+      posted: "Posted %{time} ago"
+      delete: "delete"
+      confirm: "Your sure?"
+  shared:
+    micropost_form:
+      text_holder: "Hôm nay bạn nghĩ gì thế hả?"
+      post: "Post"
+    user_info:
+      view_pf: "view my profile"
+      micropost: "micropost"
   will_paginate:
     next_label: "Next &#8594;"
     previous_label: "&#8592; Previous"

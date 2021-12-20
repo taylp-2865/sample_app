@@ -21,6 +21,8 @@ vi:
   reset_success: "Mật khẩu đã được đặt lại"
   reset_expired: "Đã hết hạn đặt lại mật khẩu"
   reset_failed: "Reset password failed"
+  valid_image_format: "Hình ảnh sai định dạng cho phép"
+  valid_image_size: "Kích thước ảnh phải bé hơn 5mb"
   layouts:
     header:
       home: "Trang chủ"
@@ -43,6 +45,7 @@ vi:
       content: "Đây là trang chủ cho %{link} ứng dụng mẫu"
       welcome: "Chào bạn đến với Sample App"
       signup_now: "Tham gia ngay!"
+      micropost_feed: "Các bài post"
     contact:
       content: "Xin chào Lê Phương Tây"
     help:
@@ -54,6 +57,8 @@ vi:
       rails: "Ruby on Rails"
       learn_enough: "Learn Enough"
   users:
+    show:
+      microposts: "Các bài viết"
     index:
       title: "Danh sách người dùng"
     new:
@@ -119,6 +124,22 @@ vi:
     new:
       title: "Quên mật khẩu"
       submit: "Xác nhận"
+  microposts:
+    create:
+      success: "Tạo bài viết thành công"
+    destroy:
+      deleted: "Đã xoá bài viết"
+    micropost:
+      posted: "Đã đăng %{time} trước"
+      delete: "Xoá"
+      confirm: "Bạn chắc chứ??"
+  shared:
+    micropost_form:
+      text_holder: "Hôm nay bạn nghĩ gì thế hả?"
+      post: "Đăng"
+    user_info:
+      view_pf: "xem hồ sơ"
+      micropost: "bài viết"
   will_paginate:
     next_label: "Trang kế &#8594"
     previous_label: "&#8592; Trang trước"
