@@ -14,6 +14,13 @@ vi:
   avtivated_sucess: "Kích hoạt thành công"
   invalid_avtivation_link: "Đường dẫn kích hoạt không hợp lệ"
   activation: "Xác nhận tài khoản"
+  password_reset: "Đặt lại mật khẩu"
+  create_password_reset: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+  email_not_found: "Không tìm thấy địa chỉ email"
+  cant_be_empty: "Không được để trống"
+  reset_success: "Mật khẩu đã được đặt lại"
+  reset_expired: "Đã hết hạn đặt lại mật khẩu"
+  reset_failed: "Reset password failed"
   layouts:
     header:
       home: "Trang chủ"
@@ -90,10 +97,28 @@ vi:
       new_user: "Người dùng mới?"
       signup_now: "Đăng kí ngay"
       remember_me: "Giữ kết nối đăng nhập với máy tính này"
+      forgot_password: "Quên mật khẩu"
   user_mailer:
     account_activation:
       hi: "Chào"
       welcome: "Chào mừng bạn đến với Sample App! Nhấn vào link bên dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt:"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      p1: "Để đặt lại mật khẩu vui lòng ấn vào link đính kèm bên dưới"
+      reset_password: "Đặt lại mật khẩu"
+      p2: "Link này sẽ hết hạn sau 2 giờ"
+      p3: "Nếu bạn không phải người thực hiện yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này
+        và mật khẩu của bạn sẽ không bị thay đổi"
+  password_resets:
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Cập nhật mật khẩu mới"
+    new:
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
   will_paginate:
     next_label: "Trang kế &#8594"
     previous_label: "&#8592; Trang trước"
