@@ -1,5 +1,5 @@
 en:
-  hello: "Hello wo!@!@rld"
+  app: "Sample App"
   title: "Ruby on Rails Tutorial Sample App"
   author: "Michael Hartl"
   tutorial: "The Ruby on Rails Tutorial"
@@ -8,6 +8,12 @@ en:
   book: "Ruby on Rails Tutorial book"
   login: "Login"
   invalid_user: "Invalid email/password"
+  check_email_to_activated: "Account not activated. Check your email for the activation link."
+  please_check_email: "Please check your email to activate your account."
+  sign_fail: "Sign up fail"
+  avtivated_sucess: "Account activated!"
+  invalid_avtivation_link: "Invalid activation link"
+  activation: "Account activation"
   layouts:
     header:
       home: "Home"
@@ -83,6 +89,11 @@ en:
         new_user: "New User?"
         sigup_now: "Sigup Now"
         remember_me: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate:"
   will_paginate:
     next_label: "Next &#8594;"
     previous_label: "&#8592; Previous"
