@@ -7,9 +7,14 @@ rails_help: "https://github.com/mhartl/sample_app_6th_ed/blob/main/HELP.md"
 rails_book: "https://www.railstutorial.org/book"
 learn_enough: "https://www.learnenough.com/"
 screen_cast: "https://screencasts.railstutorial.org/"
-avatar_size: 80
+avatar_size: 50
 name_maximun_length: 50
 email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 email_maximun_length: 255
 password_minimun: 6
 hours_expired: 2
+content_maximun: 140
+image_size: 5
+image_size_limit: 500
+image_types: "image/jpeg,image/gif,image/png"
+image_type: ["image/jpeg", "image/gif", "image/png"]
