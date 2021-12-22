@@ -90,6 +90,17 @@ vi:
     user:
       rusure: "Xác nhận xoá?"
       delete: "Xoá"
+    following:
+      title: "Theo dõi"
+    followers:
+      title: "Người theo dõi"
+    follow:
+      submit: "Theo dõi"
+    unfollow:
+      submit: "Bỏ theo dõi"
+    show_follow:
+      profile: "Xem hồ sơ"
+      micro: "Số bài viết:"
   error:
     error_valid: "Hiện đang có %{error}"
     error: "lỗi"
@@ -140,6 +151,9 @@ vi:
     user_info:
       view_pf: "xem hồ sơ"
       micropost: "bài viết"
+    stats:
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
   will_paginate:
     next_label: "Trang kế &#8594"
     previous_label: "&#8592; Trang trước"

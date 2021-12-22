@@ -32,7 +32,8 @@ build-iPhoneSimulator/
 /vendor/bundle
 /lib/bundler/man/
 config/credentials.yml.enc
-
+/public/packs
+/public/packs-test
 .rvmrc
 
 .framgia-ci-reports/

@@ -15,6 +15,8 @@ module InitProject
     config.i18n.available_locales = [:en, :vi]
     config.i18n.default_locale = :vi
     config.middleware.use I18n::JS::Middleware
+    # Rails Ajax
+    config.action_view.embed_authenticity_token_in_remote_forms = true
     # Where the I18n library should search for translation files
 
     # Permitted locales available for the application

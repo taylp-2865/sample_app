@@ -8,6 +8,7 @@ rails_book: "https://www.railstutorial.org/book"
 learn_enough: "https://www.learnenough.com/"
 screen_cast: "https://screencasts.railstutorial.org/"
 avatar_size: 50
+avatar_post_size: 30
 name_maximun_length: 50
 email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 email_maximun_length: 255

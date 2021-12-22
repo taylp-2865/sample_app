@@ -3,9 +3,10 @@ class UsersController < ApplicationController
   before_action :load_user, except: %i(index new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
+  before_action :load_title, only: %i(following followers)
 
   def index
-    @users = User.paginate(page: params[:page])
+    @users = User.paginate page: params[:page]
   end
 
   def new
@@ -13,7 +14,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @microposts = @user.microposts.paginate(page: params[:page])
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   def edit; end
@@ -31,7 +32,7 @@ class UsersController < ApplicationController
   end
 
   def update
-    if @user.update(user_params)
+    if @user.update user_params
       flash[:success] = t "users.edit.profile_updated"
       redirect_to @user
     else
@@ -40,12 +41,22 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    if user&.destroy
+    if @user.destroy
       flash[:success] = t "users.destroy.success"
     else
       flash[:danger] = t "users.destroy.fail"
     end
-    redirect_to users_url
+    redirect_to users_path
+  end
+
+  def following
+    @users = @user.following.paginate page: params[:page]
+    render :show_follow
+  end
+
+  def followers
+    @users = @user.followers.paginate page: params[:page]
+    render :show_follow
   end
 
   private
@@ -62,11 +73,11 @@ class UsersController < ApplicationController
   end
 
   def correct_user
-    redirect_to(root_url) unless current_user?(@user)
+    redirect_to root_url unless current_user? @user
   end
 
   def admin_user
-    redirect_to(root_url) unless current_user.admin?
+    redirect_to root_url unless current_user.admin?
   end
 
   def load_user
@@ -75,5 +86,9 @@ class UsersController < ApplicationController
 
     flash[:danger] = t "error.user.not_found"
     redirect_to help_url
+  end
+
+  def load_title
+    @title = t ".title"
   end
 end
